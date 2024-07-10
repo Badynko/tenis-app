@@ -4,7 +4,7 @@ export default function App() {
       <Header />
       <Matches />
       <Table />
-      <Stats />
+      <Footer />
     </div>
   );
 }

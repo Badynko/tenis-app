@@ -1,13 +1,4 @@
-export default function App() {
-  return (
-    <div className="app">
-      <Header />
-      <Matches />
-      <Table />
-      <Stats />
-    </div>
-  );
-}
+export default function App() {}
 
 function Header() {
   return <h1>Tennis Matches</h1>;
@@ -29,10 +20,10 @@ function Table() {
   );
 }
 
-function Stats() {
+function Footer() {
   return (
-    <footer className="stats">
+    <div>
       <p>Tu bude footer</p>
-    </footer>
+    </div>
   );
 }

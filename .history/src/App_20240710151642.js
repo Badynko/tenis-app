@@ -4,7 +4,7 @@ export default function App() {
       <Header />
       <Matches />
       <Table />
-      <Stats />
+      <Footer />
     </div>
   );
 }
@@ -29,10 +29,10 @@ function Table() {
   );
 }
 
-function Stats() {
+function Footer() {
   return (
-    <footer className="stats">
+    <div>
       <p>Tu bude footer</p>
-    </footer>
+    </div>
   );
 }
