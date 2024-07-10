@@ -16,16 +16,16 @@ function Header() {
       <nav>
         <ul className="menu">
           <li>
-            <a href="#">Zápasy</a>
+            <a>Zápasy</a>
           </li>
           <li>
-            <a href="#">Tabulka</a>
+            <a>Tabulka</a>
           </li>
           <li>
-            <a href="#">Štatistiky</a>
+            <a>Štatistiky</a>
           </li>
           <li>
-            <a href="#">Galéria</a>
+            <a>Galéria</a>
           </li>
         </ul>
       </nav>

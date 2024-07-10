@@ -11,22 +11,14 @@ export default function App() {
 
 function Header() {
   return (
-    <div className="header">
+    <div>
       <h1>Tennis Matches</h1>
       <nav>
-        <ul className="menu">
-          <li>
-            <a href="#">Zápasy</a>
-          </li>
-          <li>
-            <a href="#">Tabulka</a>
-          </li>
-          <li>
-            <a href="#">Štatistiky</a>
-          </li>
-          <li>
-            <a href="#">Galéria</a>
-          </li>
+        <ul>
+          <li>Zápasy</li>
+          <li>Tabulka</li>
+          <li>Štatistiky</li>
+          <li>Galéria</li>
         </ul>
       </nav>
     </div>

@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Monoton&family=Quicksand:wght@500;700&display=swap");
 
-body {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -13,14 +13,8 @@ body {
   grid-template-rows: auto auto 1fr auto;
 }
 
-.header {
-  margin: 0;
-  padding: 0;
-}
-
-h1 {
-  margin-top: 0;
-  margin-bottom: 0;
+h1,
+.menu {
   text-decoration: underline;
   word-spacing: 2rem;
   text-align: center;
@@ -29,23 +23,12 @@ h1 {
   font-size: 2rem;
   text-transform: uppercase;
   font-weight: 400;
-  padding-top: 2rem;
-  padding-bottom: 0.5rem;
-}
-
-.menu {
-  margin-top: 0;
-  text-decoration: none;
-  text-align: center;
-  background-color: #70e44a;
-  font-size: 1rem;
-  font-weight: 400;
-  padding-bottom: 1rem;
+  padding: 2.4rem 0;
 }
 
 li {
-  list-style-type: none;
-  padding-right: 2rem;
-
   display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }

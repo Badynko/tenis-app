@@ -29,8 +29,7 @@ h1 {
   font-size: 2rem;
   text-transform: uppercase;
   font-weight: 400;
-  padding-top: 2rem;
-  padding-bottom: 0.5rem;
+  padding: 2rem 0;
 }
 
 .menu {
